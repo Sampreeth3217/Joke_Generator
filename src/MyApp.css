@@ -1,0 +1,43 @@
+.my-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.my-app h2 {
+  margin-top: 0;
+}
+
+.my-app button {
+  margin-top: 20px;
+}
+
+
+.my-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.my-app h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.my-app button {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.my-app .joke {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
