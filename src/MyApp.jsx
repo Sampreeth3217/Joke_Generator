@@ -17,7 +17,7 @@ function MyApp() {
      .then(response => response.json())
      .then(data => {
         setJoke(data.setup + ' '+ data.punchline);
-        setJokes([...jokes, data.setup + ' '+ data.punchline]);
+        setJokes([...jokes, data.setup + ' ' + data.punchline]);
       });
   };
 
